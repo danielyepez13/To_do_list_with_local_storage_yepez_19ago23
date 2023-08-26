@@ -23,6 +23,7 @@ body {
   padding: 1.8em 1.25em;
   border-radius: 0.3em;
   box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
+  display: grid;
   grid-template-columns: 9fr 3fr;
   gap: 1em;
 }
@@ -33,7 +34,7 @@ body {
   border: none;
   border-bottom: 2px solid #d1d3d4;
   padding: 0.8em 0.5em;
-  color: white;
+  color: #111;
   font-weight: 500;
 }
 
@@ -102,4 +103,3 @@ body {
 .completed {
   text-decoration: line-through;
 }
-
